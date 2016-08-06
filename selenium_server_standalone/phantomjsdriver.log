@@ -1,0 +1,194 @@
+[INFO  - 2016-08-06T04:34:40.475Z] GhostDriver - Main - running on port 17130
+[INFO  - 2016-08-06T04:34:40.691Z] Session [17101640-5b8f-11e6-bdb3-7387c27fe1b9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-08-06T04:34:40.691Z] Session [17101640-5b8f-11e6-bdb3-7387c27fe1b9] - page.customHeaders:  - {}
+[INFO  - 2016-08-06T04:34:40.691Z] Session [17101640-5b8f-11e6-bdb3-7387c27fe1b9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-06T04:34:40.691Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 17101640-5b8f-11e6-bdb3-7387c27fe1b9
+[ERROR - 2016-08-06T04:34:43.612Z] Session [17101640-5b8f-11e6-bdb3-7387c27fe1b9] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'i.shift()')
+[ERROR - 2016-08-06T04:34:43.612Z] Session [17101640-5b8f-11e6-bdb3-7387c27fe1b9] - page.onError - stack:
+  r (http://96.115.70.76/static/FloatingContent/6nDzR5zZdLHog22GTjMlbA/floating-frame.js:1)
+  e (http://96.115.70.76/static/FloatingContent/6nDzR5zZdLHog22GTjMlbA/floating-frame.js:1)
+  (anonymous function) (http://96.115.70.76/static/FloatingContent/6nDzR5zZdLHog22GTjMlbA/floating-frame.js:1)
+[ERROR - 2016-08-06T04:34:43.906Z] Session [17101640-5b8f-11e6-bdb3-7387c27fe1b9] - page.onError - msg: Error: [ngOptions:iexp] http://errors.angularjs.org/1.2.5/ngOptions/iexp?p0=animal%20in%20animals&p1=%3Cselect%20ng-model%3D%22animal%22%20ng-options%3D%22animal%20in%20animals%22%20class%3D%22ng-pristine%20ng-valid%22%3E
+n@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:194:9
+link@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:196:135
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:143
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:84
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:41:338
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:604
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:100:329
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:101:110
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:566
+d@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:30:300
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:329
+Xb@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:18:31
+Sc@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:100
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:200:278
+a@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:129:318
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:135
+forEach@[native code]
+q@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:7:262
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:103 <select ng-model="animal" ng-options="animal in animals" class="ng-pristine ng-valid">
+[ERROR - 2016-08-06T04:34:43.906Z] Session [17101640-5b8f-11e6-bdb3-7387c27fe1b9] - page.onError - stack:
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:83)
+[INFO  - 2016-08-06T04:34:44.604Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-06T04:34:52.686Z] GhostDriver - Main - running on port 29248
+[INFO  - 2016-08-06T04:34:53.041Z] Session [1e6e39d0-5b8f-11e6-b0fc-d9a48e8ebe49] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-08-06T04:34:53.041Z] Session [1e6e39d0-5b8f-11e6-b0fc-d9a48e8ebe49] - page.customHeaders:  - {}
+[INFO  - 2016-08-06T04:34:53.042Z] Session [1e6e39d0-5b8f-11e6-b0fc-d9a48e8ebe49] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-06T04:34:53.042Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1e6e39d0-5b8f-11e6-b0fc-d9a48e8ebe49
+[ERROR - 2016-08-06T04:34:55.139Z] Session [1e6e39d0-5b8f-11e6-b0fc-d9a48e8ebe49] - page.onError - msg: Error: [ngOptions:iexp] http://errors.angularjs.org/1.2.5/ngOptions/iexp?p0=animal%20in%20animals&p1=%3Cselect%20ng-model%3D%22animal%22%20ng-options%3D%22animal%20in%20animals%22%20class%3D%22ng-pristine%20ng-valid%22%3E
+n@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:194:9
+link@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:196:135
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:143
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:84
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:41:338
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:604
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:100:329
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:101:110
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:566
+d@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:30:300
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:329
+Xb@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:18:31
+Sc@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:100
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:200:278
+a@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:129:318
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:135
+forEach@[native code]
+q@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:7:262
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:103 <select ng-model="animal" ng-options="animal in animals" class="ng-pristine ng-valid">
+[ERROR - 2016-08-06T04:34:55.139Z] Session [1e6e39d0-5b8f-11e6-b0fc-d9a48e8ebe49] - page.onError - stack:
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:83)
+[INFO  - 2016-08-06T04:34:55.962Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-06T04:38:00.466Z] GhostDriver - Main - running on port 2660
+[INFO  - 2016-08-06T04:38:00.782Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-08-06T04:38:00.782Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.customHeaders:  - {}
+[INFO  - 2016-08-06T04:38:00.782Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-06T04:38:00.782Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8e54c570-5b8f-11e6-b14b-9729650155f4
+[ERROR - 2016-08-06T04:38:01.787Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'i.shift()')
+[ERROR - 2016-08-06T04:38:01.787Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - stack:
+  r (http://96.115.70.76/static/FloatingContent/6nDzR5zZdLHog22GTjMlbA/floating-frame.js:1)
+  e (http://96.115.70.76/static/FloatingContent/6nDzR5zZdLHog22GTjMlbA/floating-frame.js:1)
+  (anonymous function) (http://96.115.70.76/static/FloatingContent/6nDzR5zZdLHog22GTjMlbA/floating-frame.js:1)
+[ERROR - 2016-08-06T04:38:01.957Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - msg: TypeError: null is not an object (evaluating 'r.match(/mac os x (\d+(\.|_)\d+)?/i)[1]')
+[ERROR - 2016-08-06T04:38:01.957Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - stack:
+  o (http://wifilogin.comcast.net/FPPL/mhs/mhs1.html?fi=.5&fo=.5:31)
+  (anonymous function) (http://wifilogin.comcast.net/FPPL/mhs/mhs1.html?fi=.5&fo=.5:31)
+  (anonymous function) (http://wifilogin.comcast.net/FPPL/mhs/mhs1.html?fi=.5&fo=.5:31)
+[ERROR - 2016-08-06T04:38:02.044Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - msg: ReferenceError: Can't find variable: owser
+[ERROR - 2016-08-06T04:38:02.044Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - stack:
+  r (http://wifilogin.comcast.net/FPPL/mhs/mhs1.html?fi=.5&fo=.5:47)
+  (anonymous function) (http://wifilogin.comcast.net/FPPL/mhs/mhs1.html?fi=.5&fo=.5:47)
+[ERROR - 2016-08-06T04:38:02.495Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - msg: Error: [ngOptions:iexp] http://errors.angularjs.org/1.2.5/ngOptions/iexp?p0=animal%20in%20animals&p1=%3Cselect%20ng-model%3D%22animal%22%20ng-options%3D%22animal%20in%20animals%22%20class%3D%22ng-pristine%20ng-valid%22%3E
+n@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:194:9
+link@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:196:135
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:143
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:84
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:41:338
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:604
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:100:329
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:101:110
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:566
+d@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:30:300
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:329
+Xb@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:18:31
+Sc@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:100
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:200:278
+a@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:129:318
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:135
+forEach@[native code]
+q@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:7:262
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:103 <select ng-model="animal" ng-options="animal in animals" class="ng-pristine ng-valid">
+[ERROR - 2016-08-06T04:38:02.495Z] Session [8e54c570-5b8f-11e6-b14b-9729650155f4] - page.onError - stack:
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:83)
+[INFO  - 2016-08-06T04:38:02.894Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-06T04:51:18.202Z] GhostDriver - Main - running on port 28714
+[INFO  - 2016-08-06T04:51:18.353Z] Session [69b7d660-5b91-11e6-b5ea-5d0fa1085837] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-08-06T04:51:18.353Z] Session [69b7d660-5b91-11e6-b5ea-5d0fa1085837] - page.customHeaders:  - {}
+[INFO  - 2016-08-06T04:51:18.354Z] Session [69b7d660-5b91-11e6-b5ea-5d0fa1085837] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-06T04:51:18.354Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 69b7d660-5b91-11e6-b5ea-5d0fa1085837
+[ERROR - 2016-08-06T04:51:20.093Z] Session [69b7d660-5b91-11e6-b5ea-5d0fa1085837] - page.onError - msg: Error: [ngOptions:iexp] http://errors.angularjs.org/1.2.5/ngOptions/iexp?p0=animal%20in%20animals&p1=%3Cselect%20ng-model%3D%22animal%22%20ng-options%3D%22animal%20in%20animals%22%20class%3D%22ng-pristine%20ng-valid%22%3E
+n@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:194:9
+link@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:196:135
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:143
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:84
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:41:338
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:604
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:100:329
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:101:110
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:566
+d@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:30:300
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:329
+Xb@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:18:31
+Sc@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:100
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:200:278
+a@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:129:318
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:135
+forEach@[native code]
+q@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:7:262
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:103 <select ng-model="animal" ng-options="animal in animals" class="ng-pristine ng-valid">
+[ERROR - 2016-08-06T04:51:20.093Z] Session [69b7d660-5b91-11e6-b5ea-5d0fa1085837] - page.onError - stack:
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:83)
+[INFO  - 2016-08-06T04:51:21.592Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-08-06T04:51:49.794Z] GhostDriver - Main - running on port 1780
+[INFO  - 2016-08-06T04:51:50.147Z] Session [7caa4d20-5b91-11e6-a27a-9bb964d1c137] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-08-06T04:51:50.148Z] Session [7caa4d20-5b91-11e6-a27a-9bb964d1c137] - page.customHeaders:  - {}
+[INFO  - 2016-08-06T04:51:50.148Z] Session [7caa4d20-5b91-11e6-a27a-9bb964d1c137] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-08-06T04:51:50.148Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7caa4d20-5b91-11e6-a27a-9bb964d1c137
+[ERROR - 2016-08-06T04:51:52.163Z] Session [7caa4d20-5b91-11e6-a27a-9bb964d1c137] - page.onError - msg: Error: [ngOptions:iexp] http://errors.angularjs.org/1.2.5/ngOptions/iexp?p0=animal%20in%20animals&p1=%3Cselect%20ng-model%3D%22animal%22%20ng-options%3D%22animal%20in%20animals%22%20class%3D%22ng-pristine%20ng-valid%22%3E
+n@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:194:9
+link@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:196:135
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:143
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+K@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:49:84
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:173
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:42:190
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:41:338
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:604
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:100:329
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:101:110
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:566
+d@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:30:300
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:329
+Xb@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:18:31
+Sc@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:17:100
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:200:278
+a@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:129:318
+https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:135
+forEach@[native code]
+q@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:7:262
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:27:103 <select ng-model="animal" ng-options="animal in animals" class="ng-pristine ng-valid">
+[ERROR - 2016-08-06T04:51:52.163Z] Session [7caa4d20-5b91-11e6-a27a-9bb964d1c137] - page.onError - stack:
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js:83)
+[INFO  - 2016-08-06T04:51:53.763Z] ShutdownReqHand - _handle - About to shutdown
